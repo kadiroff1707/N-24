@@ -35,15 +35,15 @@ img{
 
 /* BUTTON */
 .button{
-display: inline-block;
-padding: 13px 20px;
-border-radius: 10px;
-font-size: 16px;
-line-height: normal;
-font-weight: 500;
-text-decoration: none;
-text-align: center;
-cursor: pointer;
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
 }
 
 .button-primary{
@@ -56,7 +56,7 @@ cursor: pointer;
 }
 
 .button-primary:active{
- opacity: 0.6;
+  opacity: 0.6;
 }
 
 /* CONTAINER */
@@ -82,8 +82,8 @@ cursor: pointer;
 }
 
 .site-header-top-container{
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .site-header-logo {
@@ -112,7 +112,7 @@ align-items: center;
   list-style: none;
 }
 .currency-rates-item:not(:last-child){
-margin-right: 25px;
+  margin-right: 25px;
 }
 
 .currency-rates-type {
@@ -132,7 +132,7 @@ margin-right: 25px;
   padding-left: 40px;
   border: 0;
   border-radius: 60px;
-    font-size: 14px;
+  font-size: 14px;
   line-height: normal;
 }
 
@@ -199,10 +199,95 @@ margin-right: 25px;
 }
 
 .sitenav-link:active {
-opacity: 0.6;
+  opacity: 0.6;
 }
 
 /* SITE-HEADER-BANNER */
 .site-header-banner-link{
   display: flex;
+}
+
+
+
+/* MAIN-CONTENT */
+.main-content{
+  flex-grow: 1;
+  padding-top: 50px
+}
+
+
+/* NEWS-GRID */
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.news-grid-item {
+  width: 393px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 17px 15px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+
+.article-card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.article-card-link{
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.article-card-link:hover{
+  color: #7296ec;
+}
+
+.article-card-link:active{
+  opacity: 0.6;
+}
+
+.article-card-text {
+  margin-top: 0;
+  margin-bottom: 15px;
+
+}
+.article-card-img {
+  display: block;
+  width: 360;
+  height: 165;
+  margin-top: auto;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.article-card-footer {
+  display: flex;
+  align-items: center;
+}
+.article-card-soursce-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.article-card-source-time {
+  font-size: 12px;
+  line-height: normal;
+  color: #5e5f61;
+}
+.article-card-sourse {
 }
