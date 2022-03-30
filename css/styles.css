@@ -512,6 +512,7 @@ margin-bottom: 10px;
   padding-bottom: 40px;
   background-color: #7297ef;
   color: #fff;
+  margin-top: 100px;
 }
 .site-footer *:focus {
   outline: 2px dashed #fff;
